@@ -1,0 +1,102 @@
+HTML.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>layout 3</title>
+  <link rel="stylesheet" href="layout3.css" />
+</head>
+<body>
+
+  <div class="wrap">
+    <header class="header">header</header>
+    <div class="firsttile">
+      <p>First tile</p>
+    </div>
+    <div class="anothertile">
+      <p>Another tile</p>
+    </div>
+    <div class="andanother">
+      <p>and another</p>
+    </div>
+    <div class="theforthone">
+      <p>The forth one</p>
+    </div>
+    <div class="thelast">
+      <p>The last</p>
+    </div>
+    <footer class="footer">footer</footer>
+  </div>
+</body>
+</html>
+
+
+
+CSS.
+.wrap{
+    width:980px;
+    margin:0 auto;
+}
+
+.header{
+    width:980px;
+    height:50px;
+    background: gray;
+    color:whitesmoke;
+    font-size:40px;
+}
+
+.firsttile{
+    width:330px;
+    height:280px;
+    background: orangered;
+    float: left;
+    color:whitesmoke;
+    font-size:50px;
+}
+
+.anothertile{
+    width:650px;
+    height:650px;
+    background: darkorange;
+    float:right;
+    color:whitesmoke;
+    font-size:40px;
+}
+
+.andanother{
+    width:330px;
+    height:570px;
+    background: deepskyblue;
+    float:left;
+    color:whitesmoke;
+    font-size:40px;
+}
+
+.theforthone{
+    width:420px;
+    height:200px;
+    background: darkblue;
+    float:left;
+    color:whitesmoke;
+    font-size:40px;
+}
+
+.thelast{
+    width:230px;
+    height:200px;
+    background: darkolivegreen;
+    float:left;
+    color:whitesmoke;
+    font-size:40px;
+}
+
+.footer{
+    width:980px;
+    height:50px;
+    background: gray;
+    clear:both;
+    color:whitesmoke;
+    font-size:40px;
+}

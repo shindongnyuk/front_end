@@ -1,0 +1,46 @@
+.wrap{
+    width:980px;
+    margin:0 auto;
+}
+
+.header{
+    height:100px;
+    background-color:rosybrown;
+    margin-bottom:10px;
+}
+
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.lnb{
+    width:160px;
+    height:350px;
+    margin-right:10px;
+    background-color:bisque;
+    float:left;
+}
+
+.contents{
+    width:400px;
+    height:600px;
+    background-color:darkgray;
+    float:right;
+}
+
+.contents2 {
+    width: 400px;
+    height: 600px;
+    background-color:lightskyblue;
+    margin-left:170px;
+}
+
+.footer{
+    height:100px;
+    background-color: cornflowerblue;
+    margin-top:10px;
+    clear:both;
+}

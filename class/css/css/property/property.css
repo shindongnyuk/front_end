@@ -1,0 +1,217 @@
+
+p{
+  color: #00a0d1;
+}
+
+
+
+#text-align{
+  text-align: center;
+  font-size: 20pt;
+}
+
+
+.text-decoration{
+  text-decoration: none;
+  text-shadow: 2px 2px #00a0d1;
+}
+
+
+.font{
+  font-family: "궁서체", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.link-status:link,
+.link-status:visited{
+  color:#000;
+  text-decoration: none;
+}
+
+
+.link-status:hover{
+  color: #b5b2ff;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+table{
+  border-collapse: collapse;
+  width:300px;
+}
+
+table, th, td{
+  border:1px solid #000;
+}
+
+th, td{
+  height:50px;
+}
+
+
+/* box model block 요소와 inline dyth qlry */
+
+ .box-model-block{
+   width: 300px;
+   height: 100px;
+   padding: 50px;
+   border: 5px solid red;
+   margin: 100px;
+ }
+
+ .box-model-block{
+   width: 300px;
+   height: 100px;
+   padding: 50px;
+   border: 5px solid blue;
+   margin: 100px;
+ }
+
+
+ /* display property */
+
+  .dispaly-inline{
+    display:inline;
+
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid blue;
+  }
+
+  .display-block{
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid red;
+  }
+
+  .display-inline-block{
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid green;
+  }
+
+  /* rkqus rkfh rlfdl */
+
+  .wrap{
+    width: 100%;
+    min-width: 600px;
+    max-width: 800px;
+    background-color:lightskyblue;
+    color: mintcream;
+  }
+
+
+  /* float property */
+
+  .float-wrap{
+    width:800px;
+    height:500px;
+    border:1px solid darkmagenta;
+  }
+
+  .float-left{
+    float:left;
+    width:200px;
+    height:200px;
+    background-color:green;
+  }
+
+  .float-right{
+    float:left;
+    width:200px;
+    height:200px;
+    background-color:skyblue;
+  }
+
+  .bg-color-gray{
+    width:400px;
+    height:200px;
+    background-color:gray;
+    clear:both;
+  }
+
+
+
+  /*position property */
+
+.relative-wrap{
+    width:300px;
+    height:200px;
+    border:1px solid red;
+    margin-bottom:100px;
+}
+
+.position-relative{
+    position:relative;
+    top:20px;
+    left:30px;
+
+   background-color: aquamarine;
+}
+
+
+.outer{
+    position:relative;
+    width:500px;
+    height:500px;
+
+    background-color: greenyellow;
+}
+
+.absolute-wrap{
+    position:absolute;
+    right:30px;
+    bottom:50px;
+    width:300px;
+    height:200px;
+    border:1px solid brown;
+    margin-bottom:100px;
+}
+
+.position-absolute{
+    position:absolute;
+    top:20px;
+    left:30px;
+
+    background-color:mediumaquamarine;
+}
+
+.position-fixed{
+    position:fixed;
+    bottom:10px;
+    left:300px;
+
+    width:100px;
+    height:100px;
+    background-color: cornflowerblue;
+}
+
+.overlap-parent{
+    position:relative;
+    width:300px;
+    height:200px;
+    border:1px solid crimson;
+}
+
+.overlap-a{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:100px;
+    height:100px;
+    background-color: firebrick;
+}
+
+.overlap-b{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
