@@ -1,0 +1,50 @@
+
+/*  Descendant  */
+
+ul  : ul_li_a{}
+
+li  : ul_a{}
+
+a   : ul_span{}
+
+span
+
+
+  #ul~span까지 위에서부터 아래를 포함한다.
+
+/*  Child   */
+
+ul  : ul>li
+
+li  : li>a
+
+a   : a>span
+
+span: ul>span (X)
+
+
+/*  Adjacent  */
+
+div -p
+    -a
+    -ul-li
+       -li
+
+
+    div>p
+    div>a
+    div>ul
+    div>li(x)
+    p+a(o)
+    p+ul(x)
+    a+ul(o)
+
+
+Pseudo : 상태구분
+
+
+
+    -가상클래스-
+
+이미 존재하는 element 의 특별한 상태나 순서의
+대상을 선택하게 해주는 것.

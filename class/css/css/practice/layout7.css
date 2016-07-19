@@ -1,0 +1,62 @@
+.wrap{
+    width:950px;
+    margin:0 auto;
+}
+
+.header{
+    height: 60px;
+    background: dimgray;
+}
+
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.one{
+    width:230px;
+    height:400px;
+    background: dimgray;
+    margin-top: 10px;
+    float:left;
+}
+
+.two{
+    width:230px;
+    height:400px;
+    background: dimgray;
+    margin-top: 10px;
+    margin-left:10px;
+    float:left;
+}
+
+.three{
+    width:230px;
+    height:400px;
+    background: dimgray;
+    margin-top: 10px;
+    margin-left:10px;
+    float:left;
+}
+
+.four{
+    width:230px;
+    height:400px;
+    background: dimgray;
+    margin-top: 10px;
+    margin-left:10px;
+    float:left;
+}
+
+.five{
+    height: 150px;
+    background: dimgray;
+    margin-top: 10px;
+}
+
+.footer{
+    height:60px;
+    background: dimgray;
+    margin-top: 10px;
+}

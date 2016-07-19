@@ -1,0 +1,70 @@
+.wrap{
+    width:980px;
+    margin:0 auto;
+}
+
+.header{
+    height:70px;
+    background: lightgray;
+}
+
+.one{
+    height:45px;
+    background: dimgray;
+}
+
+.two{
+    height:350px;
+    background: dimgray;
+    margin-top: 20px;
+}
+
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.three{
+    width:320px;
+    height:200px;
+    background: dimgray;
+    float:left;
+    margin-top: 70px;
+}
+
+.four{
+    width:320px;
+    height:200px;
+    background: dimgray;
+    float:left;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.five{
+    width:320px;
+    height:200px;
+    background: dimgray;
+    float:left;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.six{
+    height:310px;
+    background: dimgray;
+    margin-top: 10px;
+}
+
+.seven{
+    height:150px;
+    background: dimgray;
+    margin-top: 50px;
+}
+
+.footer{
+    height:45px;
+    background: lightgray;
+    margin-top: 50px;
+}

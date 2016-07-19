@@ -1,0 +1,55 @@
+.wrap{
+    width:980px;
+    margin:0 auto;
+}
+
+.header{
+    height:80px;
+    background:dimgrey;
+}
+
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.left-col{
+    width:490px;
+    float:left;
+}
+
+.one{
+    width:245px;
+    height:980px;
+    background:burlywood;
+    float:left;
+}
+
+.two{
+    width:245px;
+    height:980px;
+    background:darksalmon;
+    float:right;
+}
+
+.right-col{
+    width:490px;
+    float:right;
+}
+
+.three{
+    height:490px;
+    background: khaki;
+}
+
+.four{
+    height:490px;
+    background: tomato;
+}
+
+.footer{
+    height:80px;
+    background:dimgrey;
+    clear:both;
+}

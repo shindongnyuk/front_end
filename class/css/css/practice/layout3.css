@@ -10,7 +10,10 @@
     font-size:40px;
 }
 
-.container{
+.container:after{
+    content:"";
+    display:block;
+    clear:both;
 
 }
 
