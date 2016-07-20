@@ -1,0 +1,13 @@
+.header{
+    height:135px;
+    border-top:3px solid #ff7c98;
+    position:relative;
+}
+
+
+.logo{
+    position: absolute;
+    top:21px;
+    left:50%;
+    margin-left:-46px;
+}
