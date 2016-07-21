@@ -19,93 +19,113 @@
 </head>
 <body>
   <!--HEADER-->
-  <header>
-    <img src="images/bg_header.gif" alt="배경" />
-    <h1 class="logo">
-      <a href="/"><img src="images/logo_baskinrobbins.png" alt="baskinrobbins logo" /></a>
-    </h1>
-    <div>
-      <ul class="util-sns">
-        <li><a href="#"><img src="images/icon_facebook.png" alt="facebook" /></a></li>
-        <li><a href="#"><img src="images/icon_twitter.png" alt="twitter" /></a></li>
-        <li><a href="#"><img src="images/icon_blog.png" alt="blog" /></a></li>
-        <li><a href="#"><img src="images/icon_instgram.png" alt="instgram" /></a></li>
-      </ul>
+  <header class="header">
+    <div class="small-wrap">
+
+      <h1 class="logo">
+        <a href="/">
+          <img src="images/logo_baskinrobbins.png" alt="baskinrobbins logo" />
+        </a>
+      </h1>
+      <div>
+        <ul class="util-sns">
+          <li class="util-sns-item">
+            <a href="#" class="util-sns-link" title="페이스북바로가기">
+              <img src="images/icon_facebook.png" alt="facebook" />
+            </a>
+          </li>
+          <li class="util-sns-item">
+            <a href="#" class="util-sns-link" title="트위터바로가기">
+              <img src="images/icon_twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li class="util-sns-item">
+            <a href="#" class="util-sns-link" title="블로그바로가기">
+              <img src="images/icon_blog.png" alt="blog" />
+            </a>
+          </li>
+          <li class="util-sns-item">
+            <a href="#" class="util-sns-link" title="인스타그램바로가기">
+              <img src="images/icon_instgram.png" alt="instgram" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <ul class="cs"></ul>
-        <li><a href="#">고객센터</a></li>
-        <li><a href="#">윤리신고센터</a></li>
-        <li><a href="#">CONTACT US</a></li>
+    <div class="small-wrap">
+      <ul class="cs">
+        <li class="cs-item"><a href="#" class="cs-link">고객센터</a></li>
+        <li class="cs-item"><a href="#" class="cs-link">윤리신고센터</a></li>
+        <li class="cs-item"><a href="#" class="cs-link">CONTACT US</a></li>
+      </ul>
+      </div>
     </div>
     <div class="btn-wrap">
       <button type="button" class="btn-search">검색</button>
     </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">login</a></li>
-      <li><a href="#">join</a></li>
-    </ul>
-
+  <nav class="nav">
+    <div class="small-wrap">
+      <ul class="nav-member">
+        <li class="nav-member-item"><a href="#" class="nav-member-link login">LOGIN</a></li>
+        <li class="nav-member-item"><a href="#" class="nav-member-link join">JOIN</a></li>
+      </ul>
 
     <!--MENU-->
 
-    <ul>
-      <li>
-        <a href="#">flavor of the month</a>
-        <ul>
-          <li>
-            <a href=""><img src="images/img_month_1607.png" alt="welcome to the jungle"/></a>
+     <ul class="gnb">
+      <li class="gnb-depth1-item">
+        <a href="#" class="gnb-depth1-link flavor">FLAVOR OF THE MONTH</a>
+        <ul class="gnb-depth2">
+          <li class="gnb-depth2-item">
+            <a href="" class="gnb-depth2-link"><img src="images/img_month_1607.png" alt="welcome to the jungle"/></a>
           </li>
         </ul>
       </li>
-    </ul>
 
-    <ul>
-      <li>
-        <p>해피포인트 APP</p><img src="images/img_happypoint_app.jpg" alt="해피포인트앱"/>
-      </li>
+      <ul class="gnb-depth2">
+        <li class="gnb-depth2-item"><p>해피포인트 APP</p><img src="images/img_happypoint_app.jpg" class="gnb-depth2-link" alt="해피포인트앱"/></li>
+      </ul>
 
-
-
-      <li>
-        <ul>
-          <li><a href="#">menu</a></li>
-          <li><a href="">아이스크림</a></li>
-          <li><a href="">아이스크림케이크</a></li>
-          <li><a href="">음료</a></li>
-          <li><a href="">커피</a></li>
-          <li><a href="">디저트</a></li>
-        </ul>
-      </li>
-      <li>
-        <ul>
-          <li><a href="#">event</a></li>
-          <li><a href="">진행중이벤트</a></li>
-          <li><a href="">당첨자발표</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <ul>
-          <li><a href="">store</a></li>
-          <li><a href="">매장찾기</a></li>
-          <li><a href="">고객센터</a></li>
-        </ul>
-      </li>
-      <li>
-        <ul>
-          <li><a href="">about</a></li>
-          <li><a href="">공지사항</a></li>
-          <li><a href="">보도자료</a></li>
-          <li><a href="">채용정보</a></li>
-          <li><a href="">점포개설문의</a></li>
-          <li><a href="">CONTACT US</a></li>
-        </ul>
-      </li>
-    </ul>
+        <li class="gnb-depth1-item">
+          <a href="#" class="gnb-depth1-link menu">MENU</a>
+          <ul class="gnb-depth2">
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">아이스크림</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">아이스크림케이크</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">음료</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">커피</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">디저트</a></li>
+          </ul>
+        </li>
+        <li class="gnb-depth1-item">
+          <a href="#" class="gnb-depth1-link event">EVENT</a></li>
+          <ul class="gnb-depth2">
+            <li class="gnb-depth2-item">
+              <a href=""  class="gnb-depth2-link">진행중이벤트</a></li>
+            <li  class="gnb-depth2-item">
+              <a href=""  class="gnb-depth2-link">당첨자발표</a></li>
+          </ul>
+        </li>
+        <li class="gnb-depth1-item">
+          <a href="" class="gnb-depth1-link store">STORE</a>
+            <ul class="gnb-depth2">
+              <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">매장찾기</a></li>
+              <li class="gnb-depth2-item"><a href="" class="gnb-depth2-link">고객센터</a></li>
+            </ul>
+        </li>
+        <li class="gnb-depth1-item">
+          <a href="#" class="gnb-depth1-link about">ABOUT</a></li>
+          <ul class="gnb-depth2">
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">공지사항</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">보도자료</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">채용정보</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">점포개설문의</a></li>
+            <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CONTACT US</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!--어중간해서 nav / section 미포함 ㅋㅋ-->
   <div>
